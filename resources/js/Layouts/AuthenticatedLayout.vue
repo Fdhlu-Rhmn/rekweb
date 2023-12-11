@@ -31,10 +31,10 @@ const showingNavigationDropdown = ref(false);
                                 </NavLink>
                             </div>
                             <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                                <NavLink :href="route('orders')" :active="route().current('orders')">
-                                    Orders
+                                <NavLink :href="route('index')" :active="route().current('index')">
+                                    List Player
                                 </NavLink>
-                            </div>
+                            </div>  
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ms-6">
